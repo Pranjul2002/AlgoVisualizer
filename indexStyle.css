@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(9, 26, 37);
+    color: cyan;
+    position: relative;
+    height: 140px;
+}
+
+.logoImg{
+    position: absolute;
+    width: 6%;
+    height: 85%;
+    left: 10%;
+    top: 3%;
+    border-radius: 50%;
+}
+
+.headerName{
+    position: absolute;
+    font-size: 30px;
+    top: 16%;
+    left: 42%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu{
+    position: relative;
+    top: 80px;
+    height: 60px;
+    font-size: 120%;
+}
+
+/*
+.leftMenu{
+    position: absolute;
+    width: 47%;
+    height: 70%;
+    left: 1%;
+    top: 15%;
+}
+
+.leftMenu button{
+    position: absolute;
+    width: 22%;
+    height: 80%;
+    top: 12%;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+*/
+
+.menu .sortings{
+    position: absolute;
+    left: 26%;
+    top: 15%;
+    width: 60%;
+    height: 70%;
+}
+
+
+.Bubblesort{
+    position: absolute;
+    width: 11%;
+    height: 90%;
+    top: 5%;
+    left: 2%;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Selectionsort{
+    position: absolute;
+    width: 14%;
+    height: 90%;
+    top: 5%;
+    left: 14%;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Insertionsort{
+    position: absolute;
+    width: 14%;
+    height: 90%;
+    top: 5%;
+    left: 29%;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.Quicksort{
+    position: absolute;
+    width: 11%;
+    height: 90%;
+    top: 5%;
+    left: 44%;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Mergesort{
+    position: absolute;
+    width: 11%;
+    height: 90%;
+    top: 5%;
+    left: 56%;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sheet{
+    position: relative;
+    height: 795px;
+    top: 56%;
+    background-color: rgb(9, 26, 37);
+}
+
+.coloumnbox{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 4%;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(22, 5fr);
+    column-gap: 30px;
+}
+
+.bottom{
+    position: absolute;
+    color: #50c878;
+    top: 95%;
+    left: 40%;
+    font-size: 125%;
+    font-family: 'Courier New', Courier, monospace;
+}
